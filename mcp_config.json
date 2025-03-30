@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "weather": {
+           
+            "command": "/Users/mmt5603/Documents/MCP/venv/bin/python3",
+            "args": [   
+                "/Users/mmt5603/Documents/MCP/venv/scripts/server.py" 
+            ]
+        }
+  },
+  "models": [
+    {
+      "model": "gpt-4o-mini",
+      "title": "gpt-4o-mini",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+      "provider": "openai",
+      "apiKey": "sk-proj-"
+     }
+  ]
+}
