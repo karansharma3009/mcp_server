@@ -11,6 +11,8 @@ get_alerts and get_forecast in tools.py file.
 
 # take checkout of dolphin-mcp from github
 ` pip3 install -e requirements.txt 
+
+# run client command 
 ` dolphin-mcp-cli --model gpt-4o-mini " show me weather alerts from NY city"
 
 # output 
